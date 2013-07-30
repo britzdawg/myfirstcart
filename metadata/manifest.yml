@@ -3,13 +3,12 @@ cartridge-short-name: MFC
 Version: "1.0"
 Cartridge-Version: 0.0.1
 Cartridge-Vendor: Vizuri
-
 Endpoints:
-  - Private-IP-Name:   IP
+    Private-IP-Name:   IP
     Private-Port-Name: HTTP_PORT
     Private-Port:      8080
     Public-Port-Name:  PROXY_HTTP_PORT
     Mappings:
-      - Frontend:      ""
+        Frontend:      ""
         Backend:       ""
 

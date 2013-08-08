@@ -1,4 +1,3 @@
-%global cartridgedir %{_libexecdir}/openshift/cartridges/v2/tomcat
 
 Summary:       Myfirst cartridge  
 Name:          myfirstcart

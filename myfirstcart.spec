@@ -1,3 +1,4 @@
+%global cartridgedir %{_libexecdir}/
 
 Summary:       Myfirst cartridge  
 Name:          myfirstcart

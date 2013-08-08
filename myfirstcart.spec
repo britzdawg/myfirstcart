@@ -25,37 +25,6 @@ BuildArch:     noarch
 Provides Tomcat8 support to OpenShift
 
 
-%prep
-%setup -q
-
-
-%build
-
-%install
-rm -rf %{buildroot}
-mkdir -p %{buildroot}%{cartridgedir}
-mkdir -p %{buildroot}/%{_sysconfdir}/openshift/cartridges
-cp -r * %{buildroot}%{cartridgedir}/
-
-%clean
-rm -rf %{buildroot}
-
-%post
-# To modify an alternative you should:
-# - remove the previous version if it's no longer valid
-# - install the new version with an increased priority
-# - set the new version as the default to be safe
-
-%if 0%{?rhel}
-alternatives --install /etc/alternatives/maven-3.0 maven-3.0 /usr/share/java/apache-maven-3.0.3 100
-alternatives --set maven-3.0 /usr/share/java/apache-maven-3.0.3
-%endif
-
-%if 0%{?fedora}
-alternatives --remove maven-3.0 /usr/share/java/apache-maven-3.0.3
-alternatives --install /etc/alternatives/maven-3.0 maven-3.0 /usr/share/maven 102
-alternatives --set maven-3.0 /usr/share/maven
-%endif
 
 %files
 %defattr(-,root,root,-)

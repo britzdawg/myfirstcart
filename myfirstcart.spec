@@ -1,4 +1,4 @@
-%global cartridgedir %{_libexecdir}/
+%global cartridgedir %{_libexecdir}/myfirstcart
 
 Summary:       Myfirst cartridge  
 Name:          myfirstcart

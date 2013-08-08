@@ -2,7 +2,7 @@
 
 Summary:       Myfirst cartridge  
 Name:          myfirstcart
-Version: 	   0.8.10
+Version: 	   0.8.11
 Release:       1%{?dist}
 Group:         Development/Languages
 License:       ASL 2.0
@@ -43,6 +43,9 @@ Provides Tomcat8 support to OpenShift
 
 
 %changelog
+* Thu Aug 08 2013 cbritz <cbritz@vizuri.com> 0.8.11-1
+- blah (cbritz@vizuri.com)
+
 * Thu Aug 08 2013 cbritz <cbritz@vizuri.com> 0.8.10-1
 - blah (cbritz@vizuri.com)
 

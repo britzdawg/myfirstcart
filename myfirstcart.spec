@@ -2,7 +2,7 @@
 
 Summary:       Myfirst cartridge  
 Name:          myfirstcart
-Version: 	   0.8.5
+Version: 	   0.8.6
 Release:       1%{?dist}
 Group:         Development/Languages
 License:       ASL 2.0
@@ -74,3 +74,6 @@ alternatives --set maven-3.0 /usr/share/maven
 
 
 %changelog
+* Thu Aug 08 2013 cbritz <cbritz@vizuri.com> 0.8.6-1
+- blah (britztopher@gmail.com)
+

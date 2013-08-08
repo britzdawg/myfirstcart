@@ -9,6 +9,9 @@ Group:         Development/Languages
 License:       ASL 2.0
 URL:           https://www.openshift.com
 Source0:       http://mirror.openshift.com/pub/openshift-origin/source/%{name}/%{name}-%{version}.tar.gz
+
+BuildRoot: %(mktemp -ud%{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
+
 Requires:      rubygem(openshift-origin-node)
 Requires:      openshift-origin-node-util
 

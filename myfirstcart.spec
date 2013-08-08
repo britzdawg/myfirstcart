@@ -1,6 +1,5 @@
 %global cartridgedir %{_libexecdir}/root/myfirstcart
 
-
 Summary:       myfirst cartridge
 Name:          myfirstcart
 Version: 	   0.8.12
@@ -22,8 +21,13 @@ BuildArch:     noarch
 %description
 DIY cartridge for openshift. (Cartridge Format V2)
 
+%prep
+%setup -q
+
+%build
 %__rm %{name}.spec
 
+%install
 %__mkdir -p %{buildroot}%{cartridgedir}
 %__cp -r * %{buildroot}%{cartridgedir}
 

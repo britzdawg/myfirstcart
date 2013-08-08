@@ -1,4 +1,4 @@
-%global cartridgedir ~/myfirstcart
+%global cartridgedir /root/myfirstcart
 
 Summary:       Myfirst cartridge  
 Name:          myfirstcart

@@ -3,7 +3,7 @@
 
 Summary:       myfirst cartridge
 Name:          myfirstcart
-Version: 	   0.8.11
+Version: 	   0.8.12
 Release:       1%{?dist}
 Group:         Development/Languages
 License:       ASL 2.0
@@ -35,6 +35,11 @@ DIY cartridge for openshift. (Cartridge Format V2)
 
 
 %changelog
+* Thu Aug 08 2013 cbritz <cbritz@vizuri.com> 0.8.12-1
+- Merge branch 'master' of https://github.com/britzdawg/myfirstcart
+  (britztopher@gmail.com)
+- blah from mac (britztopher@gmail.com)
+
 * Thu Aug 08 2013 cbritz <cbritz@vizuri.com> 0.8.11-1
 - blah (cbritz@vizuri.com)
 

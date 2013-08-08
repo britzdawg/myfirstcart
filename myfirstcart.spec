@@ -2,7 +2,7 @@
 
 Summary:       myfirst cartridge
 Name:          myfirstcart
-Version: 	   0.8.13
+Version: 	   0.8.14
 Release:       1%{?dist}
 Group:         Development/Languages
 License:       ASL 2.0
@@ -39,6 +39,9 @@ DIY cartridge for openshift. (Cartridge Format V2)
 
 
 %changelog
+* Thu Aug 08 2013 cbritz <cbritz@vizuri.com> 0.8.14-1
+- blah (cbritz@vizuri.com)
+
 * Thu Aug 08 2013 cbritz <cbritz@vizuri.com> 0.8.13-1
 - blah (cbritz@vizuri.com)
 - blah (cbritz@vizuri.com)

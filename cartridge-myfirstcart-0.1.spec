@@ -1,7 +1,7 @@
 
 Summary:       myfirst cartridge
 Name:          myfirstcart
-Version: 0.8.1
+Version: 0.8.2
 Release:       1%{?dist}
 Group:         Development/Languages
 License:       ASL 2.0

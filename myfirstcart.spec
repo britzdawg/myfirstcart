@@ -2,7 +2,7 @@
 
 Summary:       myfirst cartridge
 Name:          myfirstcart
-Version: 	   0.8.17
+Version: 	   0.8.18
 Release:       1%{?dist}
 Group:         Development/Languages
 License:       ASL 2.0
@@ -39,6 +39,10 @@ Test custom cart for openshift origin (Cartridge Format V2)
 
 
 %changelog
+* Mon Aug 12 2013 Unknown name 0.8.18-1
+- this is to change the output directory to use v2 because this is a v2
+  cartridge (root@broker.openshift.local)
+
 * Mon Aug 12 2013 Unknown name 0.8.17-1
 - 
 

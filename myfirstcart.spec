@@ -1,4 +1,4 @@
-%global cartridgedir %{_libexecdir}/openshift/cartridges/myfirstcart
+%global cartridgedir %{_libexecdir}/openshift/cartridges/v2/myfirstcart
 
 Summary:       myfirst cartridge
 Name:          myfirstcart
@@ -19,7 +19,7 @@ Obsoletes: openshift-origin-cartridge
 BuildArch:     noarch
 
 %description
-DIY cartridge for openshift. (Cartridge Format V2)
+Test custom cart for openshift origin (Cartridge Format V2)
 
 %prep
 %setup -q
